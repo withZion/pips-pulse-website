@@ -1,0 +1,12 @@
+{
+  // Pips Pulse landing page: static files only, served by Cloudflare (Pages on Workers).
+  // Deploy from this website folder with:  npx wrangler deploy
+  "$schema": "https://unpkg.com/wrangler@4.146.0/config-schema.json",
+  "name": "pips-pulse",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "public",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": true }
+}
